@@ -1,4 +1,4 @@
-#(This is a direct clone of https://github.com/keyonghan/cloud-builders-community/tree/master/flutter)
+#(This is a direct clone of https://github.com/GoogleCloudPlatform/cloud-builders-community/tree/master/flutter)
 
 # Tool builder: `gcr.io/cloud-builders/flutter`
 
