@@ -41,6 +41,9 @@ RUN git clone https://github.com/flutter/flutter "${FLUTTER_ROOT}"
 ENV PATH="${FLUTTER_ROOT}/bin:${PATH}"
 ENV ANDROID_HOME="${ANDROID_TOOLS_ROOT}"
 
+# Switch to dev channel
+RUN flutter channel dev
+
 # Disable analytics and crash reporting on the builder.
 RUN flutter config  --no-analytics
 
